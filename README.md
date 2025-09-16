@@ -43,7 +43,7 @@ pydantic==2.4.2      # Data validation
 python-dotenv==1.0.0 # Environment management
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone or extract the project**:
    ```bash
@@ -61,7 +61,7 @@ python-dotenv==1.0.0 # Environment management
    # Edit .env with your preferences
    ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Usage
 ```bash
@@ -92,7 +92,7 @@ ML_MIN_TRAINING_DATA=100
 LOG_LEVEL=INFO
 ```
 
-## 📊 Architecture
+##  Architecture
 
 ### Project Structure
 ```
@@ -140,7 +140,7 @@ trendline/
 - **DashboardCore**: Main business logic
 - **ChartBuilder**: Professional chart generation
 
-## 🔧 Configuration Options
+## Configuration Options
 
 ### Core Settings
 - `SYMBOLS`: List of trading pairs to monitor
@@ -157,7 +157,7 @@ trendline/
 - `ML_MIN_TRAINING_DATA`: Minimum data points required for training
 - `ML_N_ESTIMATORS`: Random Forest estimator count
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 
@@ -178,7 +178,7 @@ pytest tests/test_technical_indicators.py
 - Signal generation logic
 - Data provider functionality
 
-## 🔍 Usage Examples
+## Usage Examples
 
 ### Custom Data Provider
 ```python
@@ -227,7 +227,7 @@ if latest_signal:
     print(f"Signal: {latest_signal.signal.value} at ${latest_signal.price:.2f}")
 ```
 
-## 📈 Performance & Scalability
+## Performance & Scalability
 
 ### Optimization Features
 - **Efficient Algorithms**: Optimized trend line detection using scipy
@@ -241,14 +241,14 @@ if latest_signal:
 - **Database Integration**: Add PostgreSQL/Redis for persistence
 - **Load Balancing**: Deploy multiple instances behind nginx
 
-## 🔐 Security Considerations
+## Security Considerations
 
 - **No API Keys**: Default configuration doesn't require exchange credentials
 - **Input Validation**: All data validated using Pydantic models
 - **Error Isolation**: Exceptions contained per symbol/component
 - **Logging**: Comprehensive audit trail without sensitive data
 
-## 🚨 Important Notes
+## Important Notes
 
 ### Data Sources
 - **Real Data**: Requires internet connection for CCXT
@@ -265,7 +265,7 @@ if latest_signal:
 - **Monitoring**: Monitor logs for errors and performance
 - **Resources**: Ensure adequate CPU/memory for chosen symbol count
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -299,7 +299,7 @@ LOG_LEVEL=DEBUG python main.py
 
 This project is provided as-is for educational and research purposes.
 
-## 🤝 Contributing
+## Contributing
 
 1. Follow the existing code structure
 2. Add tests for new features
@@ -307,7 +307,7 @@ This project is provided as-is for educational and research purposes.
 4. Use type hints
 5. Follow PEP8 standards
 
-## 📞 Support
+## Support
 
 For issues and questions:
 1. Check the troubleshooting section
