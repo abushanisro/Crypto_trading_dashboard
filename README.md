@@ -1,4 +1,5 @@
-# Professional Crypto Trading Dashboard
+![Crypto](https://github.com/abushanisro/Crypto_trading_dashboard/blob/main/cryptotrade.png?raw=true)
+# Crypto Trading Dashboard
 
 A production-ready cryptocurrency trading dashboard with advanced trend line analysis, ML predictions, and real-time breakout detection.
 
